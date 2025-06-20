@@ -1,0 +1,147 @@
+/* .questions-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+.questions-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loading-text {
+  text-align: center;
+  color: #777;
+}
+
+.question-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.question-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.question-answer {
+  white-space: pre-line;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.question-time {
+  font-size: 13px;
+  color: #666;
+  text-align: right;
+}
+
+.question-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+} */
+
+.questions-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+.questions-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loading-text {
+  text-align: center;
+  color: #777;
+}
+
+.question-card {
+  position: relative; /* enables absolute positioning inside */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.question-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.question-answer {
+  white-space: pre-line;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.question-time {
+  font-size: 13px;
+  color: #666;
+  text-align: left;
+}
+
+.question-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* .delete-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+} */
+.delete-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #e74c3c;
+  font-size: 18px;
+}
+
+.delete-button:hover {
+  color: #c0392b;
+}
