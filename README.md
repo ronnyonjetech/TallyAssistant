@@ -38,7 +38,7 @@ Follow these steps to set up and run the frontend and backend of the application
 
 To get started with the project, follow these simple steps:
 
-## 1. Clone the Repository
+## Clone the Repository
 
 Open your terminal or command prompt and download the entire project using Git:
 
