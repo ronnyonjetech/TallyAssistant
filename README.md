@@ -43,8 +43,9 @@ To get started with the project, follow these simple steps:
 Open your terminal or command prompt and download the entire project using Git:
 
 ```bash
-git clone [https://github.com/ronnyonjetech/TallyAssistant.git](https://github.com/ronnyonjetech/TallyAssistant.git)
+git clone https://github.com/ronnyonjetech/TallyAssistant.git
 ```
+
 ## Frontend
 
 1.  Navigate to the frontend directory:
